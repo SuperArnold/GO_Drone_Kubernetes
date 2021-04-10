@@ -40,4 +40,4 @@ spec:
         - containerPort: 8080
         env:
         - name: FOR_GODS_SAKE_PLEASE_REDEPLOY
-          value: '2021年 4月11日 週日 02時39分40秒 CST'
+          value: 'THIS_STRING_IS_REPLACED_DURING_BUILD'
