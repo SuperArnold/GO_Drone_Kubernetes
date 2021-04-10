@@ -32,7 +32,7 @@ spec:
       - name: go-hello
         image: appleboy/golang-http:VERSION
         imagePullPolicy: Always
-        resources:
+        resources: 
           requests:
             cpu: 100m
             memory: 100Mi
