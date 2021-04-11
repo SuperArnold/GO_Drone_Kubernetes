@@ -17,7 +17,7 @@ pipeline:
       - GOARCH=amd64
       - CGO_ENABLED=0
     commands:
-      - make build
+      - make 
 
   deploy:
     image: sh4d1/drone-kubernetes
