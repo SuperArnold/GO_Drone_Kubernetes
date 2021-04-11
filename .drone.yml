@@ -18,7 +18,6 @@ pipeline:
       - CGO_ENABLED=0
     commands:
       - make 
-
   deploy:
     image: sh4d1/drone-kubernetes
     kubernetes_template: deployment.yml
