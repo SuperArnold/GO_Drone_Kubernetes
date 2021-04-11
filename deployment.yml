@@ -33,7 +33,7 @@ spec:
         image: appleboy/golang-http:latest
         imagePullPolicy: Always
         resources: 
-          requests:
+          - requests:
             cpu: 100m
             memory: 100Mi
         ports:
