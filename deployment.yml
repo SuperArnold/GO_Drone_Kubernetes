@@ -3,18 +3,11 @@ kind: Deployment
 metadata:
   name: frontend
   # these labels can be applied automatically
-  # from the labels in the pod template if not set
   labels:
     app: gotraining
     tier: frontend
 spec:
   replicas: 3
-  # selector can be applied automatically
-  # from the labels in the pod template if not set
-  # selector:
-  #   app: guestbook
-  #   tier: frontend
-  strategy:
     type: RollingUpdate
     rollingUpdate:
       maxSurge: 1
