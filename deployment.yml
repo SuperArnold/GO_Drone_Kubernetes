@@ -8,7 +8,6 @@ metadata:
     app: gotraining
     tier: frontend
 spec:
-  # modify it according to your case
   replicas: 3
   # selector can be applied automatically
   # from the labels in the pod template if not set
